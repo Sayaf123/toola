@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="mohammed rafeek saiyaf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>my company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" > MY TOOLA</a>
+        <div class="nav-link" id="nav-link">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="branch.html">OUR BRANCHES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>WORLD'S NO 1 AND BEST TOOL EXPORTING COMPANY</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi cupiditate tenetur, nam doloremque obcaecati culpa error repellat iste dignissimos qui repellendus iure inventore, neque fugit, veniam mollitia ratione voluptatem!</P>
+        <a href="" class="hero-btn">ORDER NOW</a>
+    </div>
+
+</section>
+
+<!--contact -->
+<section class="contact">
+    <h1>ENROLL FOR OUR BRANDED PRODUCTS</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!--footer-->
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook-official" ></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heartbeat" ></i>by Rafeek Sayaf</p>
+</section>
+<!--javascript code-->
+
+<script>
+    var navlink = document.getElementById("nav-link");
+    function showMenu(){
+     navlink.style.right = "0"
+    }
+    function hideMenu(){
+     navlink.style.right = "-200px"
+    }
+    </script>
+ </body>
+ </html>

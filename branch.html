@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="mohammed rafeek saiyaf">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>my company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png" > MY TOOLA</a>
+        <div class="nav-link" id="nav-link">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="branch.html">OUR BRANCHES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>WORLD'S NO 1 AND BEST TOOL EXPORTING COMPANY</h1>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi nisi cupiditate tenetur, nam doloremque obcaecati culpa error repellat iste dignissimos qui repellendus iure inventore, neque fugit, veniam mollitia ratione voluptatem!</P>
+        <a href="" class="hero-btn">ORDER NOW</a>
+    </div>
+
+</section>
+
+
+<!--branches-->
+
+<section class="branches">
+    <h1>OUR BRANCHES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laboriosam minus facere eligendi atque sequi quos tenetur nobis iusto magni totam ipsa pariatur temporibus harum nostrum explicabo, quibusdam, corporis reiciendis?</p>
+    <div class="row">
+        <div class="branch-col">
+            <h3>america</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, voluptatem molestias ea obcaecati animi corrupti accusantium doloremque aperiam dolore expedita quam doloribus officiis autem ipsa nemo ex impedit totam! Unde?   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum dolorem voluptas commodi, tenetur saepe sint fugit quisquam magnam in tempore id pariatur perferendis iure temporibus beatae mollitia ab sit.</p>
+        </div>
+        <div class="branch-col">
+            <h3>asia</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum dolorem voluptas commodi, tenetur saepe sint fugit quisquam magnam in tempore id pariatur perferendis iure temporibus beatae mollitia ab sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur commodi suscipit eaque quidem hic nostrum, cum, molestias quos fugiat consequuntur explicabo est maiores architecto accusantium nemo, velit sit voluptatibus?</p>
+        </div>
+        <div class="branch-col">
+            <h3>australia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quibusdam illo eligendi ratione fuga! Dignissimos molestiae ex deserunt laudantium quisquam nostrum expedita corrupti cumque. Maxime nemo quis sed reprehenderit officiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum dolorem voluptas commodi, tenetur saepe sint fugit quisquam magnam in tempore id pariatur perferendis iure temporibus beatae mollitia ab sit.</p>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook-official" ></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>made with <i class="fa fa-heartbeat" ></i>by Rafeek Sayaf</p>
+</section>
+<!--javascript code-->
+
+<script>
+    var navlink = document.getElementById("nav-link");
+    function showMenu(){
+     navlink.style.right = "0"
+    }
+    function hideMenu(){
+     navlink.style.right = "-200px"
+    }
+    </script>
+ </body>
+ </html>
